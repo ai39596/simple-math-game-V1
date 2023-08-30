@@ -14,7 +14,7 @@ let currentQuestion = 0;
 const numberOfQuestions = 5;
 
 const generateQuestion = () => {
-  const num1 = Math.floor(Math.random() * 10) + 1;
+  const num1 = Math.floor(Math.random() * 25) + 1;
   const num2 = Math.floor(Math.random() * num1) + 1;
   const correctAnswer = num1 - num2;
 
