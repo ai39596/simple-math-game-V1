@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style_addition.css">
+  <title>הרפתקת החשבון</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <h1>הרפתקת החיבור</h1>
+        <p>בוא נגלה את עולם החשבון</p>
+        <button id="startButton">!מתחילים</button><br><br>
+        <button><a href="index.html">חזרה למסך הבית</a></button>
+      </header>
+    <main>
+      <div id="questionContainer" class="hidden">
+        <p id="questionText"></p>
+        <input type="number" id="userAnswer" placeholder="התשובה שלך">
+        <button id="submitButton">בדיקה</button><br><br>
+      </div>
+      <div id="resultContainer" class="hidden">
+        <p id="resultText"></p>
+        <button id="nextButton">השאלה הבאה</button>
+      </div>
+      <div id="scoreContainer" class="hidden"><br><br><br>
+        <p1>המשחק נגמר</p1><br>
+        <strong><p1 id="your_final_score"></p1></strong>
+      </div>
+    </main>
+  </div>
+  <script src="script_addition.js"></script>
+</body>
+</html>
